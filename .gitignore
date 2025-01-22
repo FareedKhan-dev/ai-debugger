@@ -1,0 +1,17 @@
+# Sensitive Files
+.env
+
+# Log Files
+debug_log_*.log
+
+# Virtual Environment
+.venv/
+venv/
+
+# Byte Code
+__pycache__/
+*.pyc
+
+# IDE Files
+*.idea/
+*.vscode/
