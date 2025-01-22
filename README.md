@@ -259,7 +259,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 *   [Hugging Face](https://huggingface.co/)
 *   [Google Generative AI](https://gemini.google.com/)
 *   [Scrapling](https://github.com/D4Vinci/Scrapling)
-*   
 
 ## Internet Search
 
