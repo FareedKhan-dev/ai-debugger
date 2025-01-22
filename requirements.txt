@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch
+torchvision
+torchaudio
+python-dotenv
+openai
+requests
+transformers
+torch
+google-generativeai
+scrapling
+grpcio
+grpcio-tools
