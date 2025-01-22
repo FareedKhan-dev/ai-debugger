@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AI-Code-Debugger"
+version = "1.0.0"
+description = "A code debugger using llm"
+dependencies = [
+  "python-dotenv",
+  "openai",
+  "requests",
+  "transformers",
+  "google-generativeai",
+   "scrapling",
+    "grpcio",
+    "grpcio-tools"
+]
+
+[project.optional-dependencies]
+pytorch = [
+    "torch @ https://download.pytorch.org/whl/cu118/torch-2.2.0%2Bcu118-cp310-cp310-win_amd64.whl", # Change according to your python version and OS
+     "torchvision @ https://download.pytorch.org/whl/cu118/torchvision-0.17.0%2Bcu118-cp310-cp310-win_amd64.whl", # Change according to your python version and OS
+    "torchaudio @ https://download.pytorch.org/whl/cu118/torchaudio-2.2.0%2Bcu118-cp310-cp310-win_amd64.whl"  # Change according to your python version and OS
+]
